@@ -64,7 +64,7 @@ a {
 }
 
 .slogan {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
     margin-bottom: 25px;
     line-height: 1.4;
@@ -73,7 +73,7 @@ a {
 .sub-text {
     font-size: 14px;
     color: #8c9bb4;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* สไตล์ปุ่ม Social Login */
@@ -145,11 +145,7 @@ a {
 }
 
 .header-icon {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 229, 255, 0.1);
-    border-radius: 10px;
-    padding: 8px;
+    width: 50px;
 }
 
 .header-text h2 {
@@ -180,7 +176,6 @@ a {
 
 .input-icon {
     width: 16px;
-    height: 16px;
     opacity: 0.6;
 }
 
@@ -226,7 +221,11 @@ a {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #8c9bb4;
+    color: #747c89;
+}
+
+.remember {
+    color: #5fb7ff;
 }
 
 .link-forgot {
@@ -236,11 +235,11 @@ a {
 /* สไตล์ปุ่มเข้าสู่ระบบ */
 .btn-login {
     width: 100%;
-    background: linear-gradient(90deg, #00c8ff 0%, #00e5ff 100%);
+    background: linear-gradient(90deg, #2776ff 0%, #67c7ff 100%);
     color: #1a1f3c;
     border: none;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: 15px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -257,8 +256,8 @@ a {
 }
 
 .login-btn-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    padding-right: 3px;
 }
 
 .policy-text {
